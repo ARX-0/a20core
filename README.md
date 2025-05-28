@@ -15,6 +15,7 @@ The following new branch instructions are added in Power ISA v3.1:
 - `brd`
 - `brh`
 - `brw`
+(all are compliant)
 
 These are not present in the original a2o core (Power ISA v2.07B).
 
@@ -28,7 +29,7 @@ Reference: current instruction set from `2.07B.pdf` in the a2o repo.
 
 ---
 
-### 2. Bit Manipulation Instructions
+### 2. Bit Manipulation Instructions - compliant
 
 Newly introduced in Power ISA v3.1:
 
@@ -48,7 +49,7 @@ Reference from the current a2o core:
 
 ---
 
-### 3. Count Leading/Trailing Zero Instructions
+### 3. Count Leading/Trailing Zero Instructions - compliant
 
 New instructions in v3.1:
 
@@ -66,7 +67,7 @@ Reference from a2o repo:
 
 ---
 
-## Divergence Point: Prefixed Instructions
+## Divergence Point: Prefixed Instructions - Complete compliance require clear understaning  in the prefix and sufix field
 
 ### Prefixed Load and Store Instructions (Pending Clarification)
 
@@ -87,7 +88,7 @@ The D-form instruction format appears **unchanged** between Power ISA 2.07 and 3
 
 ## Conditional Register Bit Set Instructions
 
-### `setb` and `setbcr`
+### `setb` and `setbcr` - Incompliant
 
 - `setbr` is not found in v3.1.
 - `setb` uses X-form with the BFA field (targets CR or FPSCR).
@@ -116,7 +117,7 @@ the BI in the X-form instr type is unheard of ?
 
 ---
 
-## `addex` Instruction
+## `addex` - Partial compliance (via Floating point registers instead of GPR)
 
 ### Power ISA v3.1 (pg 80)
 
@@ -132,7 +133,7 @@ Z23 compliance implies it is within scope, but may need context checks for float
 
 ---
 
-## Special Floating-Point Control Register Moves
+## Special Floating-Point Control Register Moves - Partially Compliant
 
 Instructions added in Power ISA v3.1:
 
