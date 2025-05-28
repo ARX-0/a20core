@@ -65,6 +65,7 @@ Power ISA v3.1 introduces instructions like:
 The D-form instruction format appears **unchanged** between Power ISA 2.07 and 3.1.
 
 ![dform-31](https://github.com/user-attachments/assets/dee6fb8c-8556-44d8-a9a9-e2fae69554b0)
+
 ![dform-comp1](https://github.com/user-attachments/assets/fd8ab9d6-02a8-4b47-bd78-6f4b0ee9a711)
 ![dform-comp2](https://github.com/user-attachments/assets/7403953c-c2c7-44db-ad4b-03568ce5a5dd)
 
