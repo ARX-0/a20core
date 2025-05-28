@@ -279,7 +279,7 @@ Legacy 2.07B similarity (not viable for full coverage):
 
 ![image](https://github.com/user-attachments/assets/3cad39d9-759d-4f7d-91be-66a2e76591a6)
 
---
+---
 
 ### `fmrgew` and `fmrgow` (pg 162) - Fully compliant
 
@@ -289,7 +289,7 @@ Legacy 2.07B similarity (not viable for full coverage):
 
 ![image](https://github.com/user-attachments/assets/3982b9ac-ade4-4497-9dc3-7d593c864e67)
 
---
+---
 
 ### lq (pg 65) - Fully compliant with 2.07
 
@@ -299,7 +299,7 @@ Legacy 2.07B similarity (not viable for full coverage):
 
 ![image](https://github.com/user-attachments/assets/2b3a29c4-ca7a-4cd5-91f1-761a926ceee3)
 
---
+---
 
 ### stq (pg 66) -Fully compliant
 
@@ -309,7 +309,7 @@ Legacy 2.07B similarity (not viable for full coverage):
 
 ![image](https://github.com/user-attachments/assets/7e9b4a08-9594-4a9b-b956-72be2bd18f14)
 
---
+---
 
 ### lqarx (pg 1084) -No compliance/ Partial
 
@@ -319,7 +319,7 @@ Legacy 2.07B similarity (not viable for full coverage):
  
 ![image](https://github.com/user-attachments/assets/14b60411-b3c2-4505-bbd4-4fb640fd8425)
 
---
+---
 
 ### miso (make it so) - TOTALLY Compliant??
 
@@ -327,7 +327,7 @@ Intersting that there aint no direct encoding just this... the `or` is a D-form 
 
 ![image](https://github.com/user-attachments/assets/14137222-207b-4511-931c-130004cc36f6)
 
---
+---
 
 ### eieio (pg 1088)- Completely Compliant 
 
@@ -337,4 +337,4 @@ Intersting that there aint no direct encoding just this... the `or` is a D-form 
 
 ![image](https://github.com/user-attachments/assets/5e607e68-32e2-4118-b3b2-0ad366836702)
 
---
+---
