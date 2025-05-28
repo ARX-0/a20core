@@ -1,4 +1,4 @@
-# a2o Core
+![image](https://github.com/user-attachments/assets/7e65681f-aa5d-432f-aa02-b3cad9815a6d)# a2o Core
 
 ## a2o Core Compliance and Workflow Toward Power ISA 3.1 Compliance
 
@@ -281,5 +281,20 @@ Legacy 2.07B similarity (not viable for full coverage):
 
 ![setb_2](https://github.com/user-attachments/assets/044b3982-76fe-4b2a-b030-d5029a991122)
 
+### `bctar` (pg ) - Fully compliant
 
+> 2.0v compliant `XL` instruction variant.
 
+![image](https://github.com/user-attachments/assets/4769ddff-14d6-4130-a9f3-6305deefe287)
+
+2.07v
+
+![image](https://github.com/user-attachments/assets/3cad39d9-759d-4f7d-91be-66a2e76591a6)
+
+### `fmrgew` and `fmrgow` (pg 162) - Fully compliant
+
+![image](https://github.com/user-attachments/assets/3c5496ac-1aca-4523-9b9b-56759db62046)
+
+2.07v
+
+![image](https://github.com/user-attachments/assets/3982b9ac-ade4-4497-9dc3-7d593c864e67)
