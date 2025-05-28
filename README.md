@@ -163,80 +163,108 @@ Legacy 2.07B similarity (not viable for full coverage):
 
 ---
 
-### addpcis pg 76 (no compliance)
 
-![image](https://github.com/user-attachments/assets/018412f3-c8f7-4c18-9909-43c42e8fa917)
+### `addpcis` (pg 76) — Not Compliant
 
-the DX form instruction set is a new one and is not compliant with the existing 2.07v
+> The DX-form instruction set is new and not compliant with 2.07v.
 
-![image](https://github.com/user-attachments/assets/a46a8584-7bfb-4cc1-86d2-8e3a975a0db3)
+![addpcis_1](https://github.com/user-attachments/assets/018412f3-c8f7-4c18-9909-43c42e8fa917)
+![addpcis_2](https://github.com/user-attachments/assets/a46a8584-7bfb-4cc1-86d2-8e3a975a0db3)
 
 ---
 
-### cmpeqb pg 95
+### `cmpeqb` (pg 95) — Partially Compliant
 
-![image](https://github.com/user-attachments/assets/6b05665c-93ed-4171-a83c-60bc75abe7a4)
+> In 2.07v it uses float, in 3.1v GPR replaces FPR.
 
-in 2.07v (partial compliance) but with float
+![cmpeqb_1](https://github.com/user-attachments/assets/6b05665c-93ed-4171-a83c-60bc75abe7a4)
+![cmpeqb_2](https://github.com/user-attachments/assets/dca00fb0-9b13-4adc-8ded-7a52f0cca932)
+![cmpeqb_3](https://github.com/user-attachments/assets/db226faf-024a-432f-9a2d-31c9207f0def)
 
-![image](https://github.com/user-attachments/assets/dca00fb0-9b13-4adc-8ded-7a52f0cca932)
+---
 
-in 3.1v (GPR instead of the FPR is need to be used)
+### `cmprb` (pg 94) — Fully Compliant
 
-![image](https://github.com/user-attachments/assets/db226faf-024a-432f-9a2d-31c9207f0def)
+> Complete compliance with the 2.07v X-form.
 
-### pg 94 cmprb
+![cmprb_1](https://github.com/user-attachments/assets/59c972d8-d800-4775-803c-5ea42fd2da75)
+![cmprb_2](https://github.com/user-attachments/assets/f7abb2fa-0a3d-4ed4-9d35-209d23eb137f)
 
-![image](https://github.com/user-attachments/assets/59c972d8-d800-4775-803c-5ea42fd2da75)
+---
 
-complete compliance with the 2.07v X-form
+### `cnttzd` (pg 104) — Fully Compliant
 
-![image](https://github.com/user-attachments/assets/f7abb2fa-0a3d-4ed4-9d35-209d23eb137f)
+> Offers full compliance with the 2.07v.
 
-### cnttzd pg104 offesr complete compliance to the 2.07v
+![cnttzd_1](https://github.com/user-attachments/assets/bb6e00ed-1628-48d8-b016-3d14a864868f)
+![cnttzd_2](https://github.com/user-attachments/assets/3b1318de-7c2f-4892-a0ed-e8f297e7c1e3)
 
-![image](https://github.com/user-attachments/assets/bb6e00ed-1628-48d8-b016-3d14a864868f)
+---
 
-![image](https://github.com/user-attachments/assets/3b1318de-7c2f-4892-a0ed-e8f297e7c1e3)
+### `darn` (pg 86) — Not Compliant
 
-### darn pg 86 (incompliant to the 2.07v)
+> 2.07v is not compliant, 3.1v version achieves compliance.
 
-![image](https://github.com/user-attachments/assets/485d8d48-0d4b-4f89-af01-88bbef331226)
+![darn_1](https://github.com/user-attachments/assets/485d8d48-0d4b-4f89-af01-88bbef331226)
+![darn_2](https://github.com/user-attachments/assets/34f295d6-ef82-45c8-8197-154f55ccacbe)
 
-the 3.1v that achieves compliance
+---
 
-![image](https://github.com/user-attachments/assets/34f295d6-ef82-45c8-8197-154f55ccacbe)
+### `extswsli.` (pg 116) — Fully Compliant
 
-### extswsli[.] (fully compliant with the 2.07 ISA) pg 116
+> Fully compliant with the 2.07v ISA.
 
-![image](https://github.com/user-attachments/assets/c1c7ad3d-df6e-4683-bbe8-c6abb81f726e)
+![extswsli_1](https://github.com/user-attachments/assets/c1c7ad3d-df6e-4683-bbe8-c6abb81f726e)
+![extswsli_2](https://github.com/user-attachments/assets/8ff7e494-1848-4bb8-8680-a7fc86d3296e)
 
-2.07v 
+---
 
-![image](https://github.com/user-attachments/assets/8ff7e494-1848-4bb8-8680-a7fc86d3296e)
+### `maddld`, `maddhd`, `maddhdu` — Not Compliant
 
-### maddld, maddhd, maddhdu (incompliant)
+> In 2.07v, GPR instead of Vector Registers should be used. Not compliant.
 
-![image](https://github.com/user-attachments/assets/ed7e0030-b19b-402f-8e9c-b2a32fc498db)
-![image](https://github.com/user-attachments/assets/564ee6c1-c05d-407d-b778-d1112cb2725e)
-![image](https://github.com/user-attachments/assets/85517362-c8bc-44fb-b8d4-542f44e351cb)
+![madd_1](https://github.com/user-attachments/assets/ed7e0030-b19b-402f-8e9c-b2a32fc498db)
+![madd_2](https://github.com/user-attachments/assets/564ee6c1-c05d-407d-b778-d1112cb2725e)
+![madd_3](https://github.com/user-attachments/assets/85517362-c8bc-44fb-b8d4-542f44e351cb)
+![madd_4](https://github.com/user-attachments/assets/6ef267ea-aea5-4e1b-99b9-fba47ac6e03e)
+![madd_5](https://github.com/user-attachments/assets/fb09979e-e9e0-43a4-82ed-a0fc59fb7260)
 
+---
 
-3.1v
+### `mcrxrx` (pg 127) — Fully Compliant
 
-![image](https://github.com/user-attachments/assets/6ef267ea-aea5-4e1b-99b9-fba47ac6e03e)
+> Compliant with 2.07v.
 
-2.07v (GPR instead of Vector registers to be used)
+![mcrxrx_1](https://github.com/user-attachments/assets/49b1b2d2-06cb-4c09-b8ba-90835cbd9a8a)
+![mcrxrx_2](https://github.com/user-attachments/assets/e3bf0963-1729-4b9f-ba16-f59e1b370662)
 
-![image](https://github.com/user-attachments/assets/fb09979e-e9e0-43a4-82ed-a0fc59fb7260)
+---
 
+### `modsd`, `modsw`, `modud`, `moduw` — Fully Compliant
 
-### mcrxrx pg 127 (compliant with the 2.07v)
+> Fully compliant with 2.07v.
 
-![image](https://github.com/user-attachments/assets/49b1b2d2-06cb-4c09-b8ba-90835cbd9a8a)
+![mod_1](https://github.com/user-attachments/assets/73fce386-3c71-48c8-b7be-2590d98137b6)
+![mod_2](https://github.com/user-attachments/assets/86f699e5-154b-4db9-b2e1-50ccff9b4414)
+![mod_3](https://github.com/user-attachments/assets/4bcc9731-1acb-4e92-b2f5-687699d15873)
 
-2.07v
+---
 
-![image](https://github.com/user-attachments/assets/e3bf0963-1729-4b9f-ba16-f59e1b370662)
+### `scv` (pg 47) — Fully Compliant
+
+> 2.0v compliant `sc` instruction variant.
+
+![scv_1](https://github.com/user-attachments/assets/9d7c6a1d-2dca-459a-a317-cbbbd1155428)
+![scv_2](https://github.com/user-attachments/assets/232a118c-2233-4a3c-b6b1-746f2d64059b)
+
+---
+
+### `setb` (pg 129) — Not Compliant
+
+> 2.07v is incompliant. 3.1v has a similar instruction but is not equivalent.
+
+![setb_1](https://github.com/user-attachments/assets/cb70e829-2316-4913-af8d-a45d32806959)
+![setb_2](https://github.com/user-attachments/assets/044b3982-76fe-4b2a-b030-d5029a991122)
+
 
 
