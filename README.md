@@ -4,13 +4,14 @@
 
 This document outlines the required changes and workflow to make the IBM a2o core compliant with Power ISA 3.1, focusing first on **Book I (User Mode)** additions.
 
---
+---
 
 ## Book I (User Mode) Changes
 
 Whate were not found .... stqarx, icbt, pnop, paddi
 
---
+---
+
 ### `brd`, `brh`, `brw` - (all are compliant)
 
 These are not present in the original a2o core (Power ISA v2.07B).
