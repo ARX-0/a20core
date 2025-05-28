@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7e65681f-aa5d-432f-aa02-b3cad9815a6d)# a2o Core
+# a2o Core
 
 ## a2o Core Compliance and Workflow Toward Power ISA 3.1 Compliance
 
