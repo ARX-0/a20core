@@ -8,7 +8,7 @@ This document outlines the required changes and workflow to make the IBM a2o cor
 
 ## Book I (User Mode) Changes
 
-Whate were not found .... stqarx, icbt, pnop, paddi
+# Whate were not found .... stqarx, icbt, pnop, paddi
 
 ---
 
