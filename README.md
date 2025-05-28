@@ -8,6 +8,8 @@ This document outlines the required changes and workflow to make the IBM a2o cor
 
 ## Book I (User Mode) Changes
 
+Whate were not found .... stqarx, icbt, pnop, paddi
+
 ### 1. New Branch Instructions in Power ISA v3.1
 
 The following new branch instructions are added in Power ISA v3.1:
@@ -298,3 +300,44 @@ Legacy 2.07B similarity (not viable for full coverage):
 2.07v
 
 ![image](https://github.com/user-attachments/assets/3982b9ac-ade4-4497-9dc3-7d593c864e67)
+
+### lq (pg 65) - Fully compliant with 2.07
+
+![image](https://github.com/user-attachments/assets/1a369a4f-9bd2-44cd-b7e0-0d0c55ee0eb0)
+
+2.07v 
+
+![image](https://github.com/user-attachments/assets/2b3a29c4-ca7a-4cd5-91f1-761a926ceee3)
+
+
+### stq (pg 66) -Fully compliant
+
+![image](https://github.com/user-attachments/assets/c4fca533-4a55-4ab2-ac49-70a6e918db5e)
+
+2.07v 
+
+![image](https://github.com/user-attachments/assets/7e9b4a08-9594-4a9b-b956-72be2bd18f14)
+
+### lqarx (pg 1084) -No compliance/ Partial
+
+![image](https://github.com/user-attachments/assets/bc795345-b88b-42d6-b61f-92172f2ca1f3)
+
+2.07v(similarity) with Floating point format
+ 
+![image](https://github.com/user-attachments/assets/14b60411-b3c2-4505-bbd4-4fb640fd8425)
+
+### miso (make it so) - TOTALLY Compliant??
+
+Intersting that there aint no direct encoding just this... the `or` is a D-form instruction and it works and compliant with 2.07v 
+
+![image](https://github.com/user-attachments/assets/14137222-207b-4511-931c-130004cc36f6)
+
+### eieio (pg 1088)- Completely Compliant 
+
+![image](https://github.com/user-attachments/assets/387594f2-89c9-4335-81c8-6da82bddbff6)
+
+2.07v
+
+![image](https://github.com/user-attachments/assets/5e607e68-32e2-4118-b3b2-0ad366836702)
+
+
