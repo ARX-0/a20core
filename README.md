@@ -4,7 +4,7 @@
 
 This document outlines the required changes and workflow to make the IBM a2o core compliant with Power ISA 3.1, focusing first on **Book I (User Mode)** additions.
 
----
+--
 
 ## Book I (User Mode) Changes
 
