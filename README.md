@@ -10,14 +10,8 @@ This document outlines the required changes and workflow to make the IBM a2o cor
 
 Whate were not found .... stqarx, icbt, pnop, paddi
 
-### 1. New Branch Instructions in Power ISA v3.1
-
-The following new branch instructions are added in Power ISA v3.1:
-
-- `brd`
-- `brh`
-- `brw`
-(all are compliant)
+--
+### `brd`, `brh`, `brw` - (all are compliant)
 
 These are not present in the original a2o core (Power ISA v2.07B).
 
@@ -31,13 +25,8 @@ Reference: current instruction set from `2.07B.pdf` in the a2o repo.
 
 ---
 
-### 2. Bit Manipulation Instructions - compliant
+### `cfuged`, `pdepd`,`pextd` - compliant
 
-Newly introduced in Power ISA v3.1:
-
-- `cfuged`
-- `pdepd`
-- `pextd`
 
 These are absent in the a2o core's 2.07B instruction set.
 
@@ -51,12 +40,7 @@ Reference from the current a2o core:
 
 ---
 
-### 3. Count Leading/Trailing Zero Instructions - compliant
-
-New instructions in v3.1:
-
-- `cntlzdm`
-- `cnttzdm`
+### `cntlzdm``cnttzdm` - compliant
 
 These are not implemented in a2o.
 
@@ -293,6 +277,8 @@ Legacy 2.07B similarity (not viable for full coverage):
 
 ![image](https://github.com/user-attachments/assets/3cad39d9-759d-4f7d-91be-66a2e76591a6)
 
+--
+
 ### `fmrgew` and `fmrgow` (pg 162) - Fully compliant
 
 ![image](https://github.com/user-attachments/assets/3c5496ac-1aca-4523-9b9b-56759db62046)
@@ -300,6 +286,8 @@ Legacy 2.07B similarity (not viable for full coverage):
 2.07v
 
 ![image](https://github.com/user-attachments/assets/3982b9ac-ade4-4497-9dc3-7d593c864e67)
+
+--
 
 ### lq (pg 65) - Fully compliant with 2.07
 
@@ -309,6 +297,7 @@ Legacy 2.07B similarity (not viable for full coverage):
 
 ![image](https://github.com/user-attachments/assets/2b3a29c4-ca7a-4cd5-91f1-761a926ceee3)
 
+--
 
 ### stq (pg 66) -Fully compliant
 
@@ -318,6 +307,8 @@ Legacy 2.07B similarity (not viable for full coverage):
 
 ![image](https://github.com/user-attachments/assets/7e9b4a08-9594-4a9b-b956-72be2bd18f14)
 
+--
+
 ### lqarx (pg 1084) -No compliance/ Partial
 
 ![image](https://github.com/user-attachments/assets/bc795345-b88b-42d6-b61f-92172f2ca1f3)
@@ -326,11 +317,15 @@ Legacy 2.07B similarity (not viable for full coverage):
  
 ![image](https://github.com/user-attachments/assets/14b60411-b3c2-4505-bbd4-4fb640fd8425)
 
+--
+
 ### miso (make it so) - TOTALLY Compliant??
 
 Intersting that there aint no direct encoding just this... the `or` is a D-form instruction and it works and compliant with 2.07v 
 
 ![image](https://github.com/user-attachments/assets/14137222-207b-4511-931c-130004cc36f6)
+
+--
 
 ### eieio (pg 1088)- Completely Compliant 
 
@@ -340,4 +335,4 @@ Intersting that there aint no direct encoding just this... the `or` is a D-form 
 
 ![image](https://github.com/user-attachments/assets/5e607e68-32e2-4118-b3b2-0ad366836702)
 
-
+--
