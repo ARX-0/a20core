@@ -58,6 +58,9 @@ Reference from a2o repo:
 
 ### Prefixed Load and Store Instructions (Pending Clarification)
 
+![image](https://github.com/user-attachments/assets/354fad42-eee2-4b03-a28b-c29b7273ef2f)
+
+
 Power ISA v3.1 introduces instructions like:
 
 - `plbz`, `plhz`, `plha`, `plwz`, `plwa`, `pld`, `plq`, `plfd`, `plfs`
